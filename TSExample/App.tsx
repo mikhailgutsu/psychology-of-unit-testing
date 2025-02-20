@@ -6,7 +6,7 @@
  */
 
 import React from 'react';
-import BTN from './src/navigation/buttonScreen';
+import BTN from './src/navigation/buttonScreen/ButtonComponent';
 
 const App: React.FC = () => {
   return <BTN></BTN>;

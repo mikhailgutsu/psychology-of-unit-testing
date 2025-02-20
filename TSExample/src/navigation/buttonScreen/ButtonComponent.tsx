@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, TouchableOpacity, StyleSheet, Alert} from 'react-native';
 
-const BTN = () => {
+const ButtonComponent: React.FC = () => {
   return (
     <View style={styles.container}>
       <TouchableOpacity
@@ -33,4 +33,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default BTN;
+export default ButtonComponent;
