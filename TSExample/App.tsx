@@ -6,9 +6,10 @@
  */
 
 import React from 'react';
+import BTN from './src/navigation/buttonScreen';
 
 const App: React.FC = () => {
-  return <></>;
+  return <BTN></BTN>;
 };
 
 export default App;
