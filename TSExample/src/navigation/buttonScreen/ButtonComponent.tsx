@@ -9,6 +9,21 @@ const ButtonComponent: React.FC = () => {
         onPress={() => Alert.alert('ok!')}>
         <Text style={styles.buttonText}>Press Me</Text>
       </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => Alert.alert('okk!')}>
+        <Text style={styles.buttonText}>Press-Me</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => Alert.alert('okkk!')}>
+        <Text style={styles.buttonText}>Press/Me</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={styles.button}
+        onPress={() => Alert.alert('okkkk!')}>
+        <Text style={styles.buttonText}>Press|Me</Text>
+      </TouchableOpacity>
     </View>
   );
 };
